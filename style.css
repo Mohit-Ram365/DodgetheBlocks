@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(180deg, #1a1a1a, #333);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#gameArea {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background-color: #222;
+  margin: 20px auto;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  bottom: 10px;
+  left: 180px;
+  width: 40px;
+  height: 40px;
+  background-color: limegreen;
+  border-radius: 5px;
+}
+
+.enemy {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: crimson;
+  top: 0;
+  border-radius: 5px;
+}
+
+#score {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#restartBtn {
+  background-color: limegreen;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: none;
+}
+
+#restartBtn:hover {
+  background-color: #00cc66;
+}
